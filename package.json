@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "Ajl_Photos",
+  "author": "Felix Denoix",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "static": "nuxi generate",
+    "start": "node .output/server/index.mjs",
+    "clean": "nuxi clean"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.6.0",
+    "nuxt": "^3.0.0-rc.12",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.12.1",
+    "@contentful/rich-text-types": "^15.12.1",
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
+  }
+}

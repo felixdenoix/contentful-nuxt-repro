@@ -1,0 +1,10 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "printWidth": 140,
+  "vueIndentScriptAndStyle": true,
+  "bracketSameLine": false,
+  "singleAttributePerLine": true
+}

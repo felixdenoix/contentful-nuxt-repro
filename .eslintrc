@@ -1,0 +1,23 @@
+{
+  "extends": [
+    // "eslint:recommended",
+    "@nuxtjs/eslint-config-typescript",
+    // "plugin:vue/vue3-recommended",
+    "prettier"
+    // "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "off"
+    ],
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": {
+        "max": 1
+      },
+      "multiline": {
+        "max": 1
+      }
+    }]
+  }
+}
