@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "nuxt3 contentful - missing default export repro",
+  "author": "Felix Denoix",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "static": "nuxi generate",
+    "start": "node .output/server/index.mjs",
+    "clean": "nuxi clean"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.6.0",
+    "nuxt": "^3.2.2",
+    "prettier": "^2.7.1",
+    "stylus": "^0.59.0",
+    "stylus-loader": "^7.1.0"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^16.0.2",
+    "@contentful/rich-text-types": "^16.0.2",
+    "contentful": "^9.3.3"
+  }
+}
