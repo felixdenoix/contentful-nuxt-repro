@@ -1,2 +1,2 @@
-# Repro of module error in SSR with nuxt3
+# Repro of contentful rich-text module error with nuxt3
 
